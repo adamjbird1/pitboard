@@ -21,7 +21,6 @@ export function SoundButton({ sound }: SoundButtonProps) {
       className={`sound-tile${pressed ? " pressed" : ""}`}
       onClick={handleClick}
     >
-      <span className="sound-tile-emoji">{sound.emoji}</span>
       <span className="sound-tile-label">{sound.label}</span>
     </button>
   );
