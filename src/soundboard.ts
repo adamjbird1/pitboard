@@ -26,6 +26,11 @@ export const SOUNDS: SoundDef[] = [
     rate: 0.8,
     pitch: 1.4,
   },
+  { 
+    id: "google",
+    label: "GOOGLE",
+    ttsText: ""
+  },
   {
     id: "voyage",
     label: "VOYAGE",
